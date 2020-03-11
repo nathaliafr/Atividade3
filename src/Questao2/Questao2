@@ -1,0 +1,23 @@
+Quest�o 2 [1.0 ponto] Quais saidas devem ser apresentadas quando for executado o seguinte programa?
+Justifique
+
+public class Programa {
+	public static void main(String[] args) {
+		int x = 10;
+		switch(x) {
+			case 0: System.out.println("nulo.");
+			case 10: System.out.println("dezena.");
+			case 100: System.out.println("centena.");
+			case 1000: System.out.println("milhar.");
+			default: System.out.println("outro.");
+		}
+	}
+}
+a() nulo.
+b(X) dezena.
+c(X) centena.
+d(X) milhar.
+e(X) outro.
+
+Ele vai apresentar todos os valores exceto o nulo pois ele vai direto na
+posicao do valor 10 e como ele nao possui nenhuma condicao de parada como por exemplo o break, ele continua a execução a partir daquele ponto.

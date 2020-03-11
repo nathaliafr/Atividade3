@@ -1,0 +1,7 @@
+Questao 1 [1.0 ponto] O que sao declaracao e inicializacao de uma variavel?
+
+Declaracao: e a criacao da referencia da variavel, ela e realizada quando se poe
+o tipo da variavel seguido pelo seu nome.
+
+Inicializacao: e quando atribuimos um valor inicial para a variavel onde o nome vem
+seguido do simbolo = e do valor.
